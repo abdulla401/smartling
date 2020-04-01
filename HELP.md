@@ -18,4 +18,4 @@ The following guides illustrate how to use some features concretely:
 docker jenkins
 test123 da
 dam2
-dam2 commit via branch
+dam2 commit via branch  new branch
