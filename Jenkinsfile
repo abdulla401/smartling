@@ -11,5 +11,10 @@ pipeline {
         sh 'ps'
       }
     }
+     stage('Builds2222') {
+      steps {
+        sh 'ls -ltr'
+      }
+    }
   }
 }
