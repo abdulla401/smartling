@@ -8,7 +8,7 @@ pipeline {
     }
     stage('Build') {
       steps {
-        sh 'ps'
+        sh 'git diff HEAD~1'
       }
     }
      stage('Builds2222') {
