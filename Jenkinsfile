@@ -13,7 +13,6 @@ pipeline {
     }
     stage('Checkout') {
             steps {
-                git 'https://github.com/abdulla401/smartling.git '
                 lastChanges format:'SIDE',matching: 'WORD', specificRevision: "${REV}"
             }
         }
